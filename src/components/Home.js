@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const Home = () => {
+export const Home = (props) => {
+  console.log("props",props)
     return (
       <div>
         <div className='add-to-cart'>
@@ -16,7 +17,7 @@ export const Home = () => {
                 <span>Price : $1000.00</span>
             </div>
             <div className='btn-wrapper item'>
-                <button>Add to cart</button>
+                <button onClick={props.addToCartHandler({price:1000,name:"i phone 11"})}>Add to cart</button>
             </div>
             
             </div>

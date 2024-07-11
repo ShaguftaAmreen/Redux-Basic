@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import User from './User';
-import HomeContainer from './containers/HomeContainer'
+import HomeContainer from './containers/HomeContainer';
+//import HomeContainer from './containers/HomeContainer'
 //import HomeContainer from "./containers/HomeContainer"
 //import Home from './components/Home';
 
